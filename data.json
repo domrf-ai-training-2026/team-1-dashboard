@@ -1,0 +1,446 @@
+{
+  "schema_version": "1.0",
+  "team_id": 1,
+  "topic": "Продажи и выполнение плана",
+  "synthetic": true,
+  "updated_at": "2026-11-10T19:00:00Z",
+  "grain": "period + office_id + product",
+  "units": {
+    "plan_mln": "млн RUB",
+    "fact_mln": "млн RUB"
+  },
+  "records": [
+    {
+      "period": "2026-10-16",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Ипотека",
+      "plan_mln": 400,
+      "fact_mln": 340
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Потребительские кредиты",
+      "plan_mln": 80,
+      "fact_mln": 72
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Автокредиты",
+      "plan_mln": 60,
+      "fact_mln": 51
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Ипотека",
+      "plan_mln": 350,
+      "fact_mln": 315
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Потребительские кредиты",
+      "plan_mln": 70,
+      "fact_mln": 68
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Автокредиты",
+      "plan_mln": 50,
+      "fact_mln": 46
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Ипотека",
+      "plan_mln": 250,
+      "fact_mln": 230
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Потребительские кредиты",
+      "plan_mln": 60,
+      "fact_mln": 54
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Автокредиты",
+      "plan_mln": 40,
+      "fact_mln": 38
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Ипотека",
+      "plan_mln": 200,
+      "fact_mln": 175
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Потребительские кредиты",
+      "plan_mln": 50,
+      "fact_mln": 47
+    },
+    {
+      "period": "2026-10-16",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Автокредиты",
+      "plan_mln": 30,
+      "fact_mln": 28
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Ипотека",
+      "plan_mln": 400,
+      "fact_mln": 360
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Потребительские кредиты",
+      "plan_mln": 80,
+      "fact_mln": 78
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Автокредиты",
+      "plan_mln": 60,
+      "fact_mln": 56
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Ипотека",
+      "plan_mln": 350,
+      "fact_mln": 320
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Потребительские кредиты",
+      "plan_mln": 70,
+      "fact_mln": 71
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Автокредиты",
+      "plan_mln": 50,
+      "fact_mln": 48
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Ипотека",
+      "plan_mln": 250,
+      "fact_mln": 235
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Потребительские кредиты",
+      "plan_mln": 60,
+      "fact_mln": 59
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Автокредиты",
+      "plan_mln": 40,
+      "fact_mln": 40
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Ипотека",
+      "plan_mln": 200,
+      "fact_mln": 170
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Потребительские кредиты",
+      "plan_mln": 50,
+      "fact_mln": 46
+    },
+    {
+      "period": "2026-10-23",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Автокредиты",
+      "plan_mln": 30,
+      "fact_mln": 27
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Ипотека",
+      "plan_mln": 400,
+      "fact_mln": 380
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Потребительские кредиты",
+      "plan_mln": 80,
+      "fact_mln": 82
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Автокредиты",
+      "plan_mln": 60,
+      "fact_mln": 60
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Ипотека",
+      "plan_mln": 350,
+      "fact_mln": 300
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Потребительские кредиты",
+      "plan_mln": 70,
+      "fact_mln": 73
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Автокредиты",
+      "plan_mln": 50,
+      "fact_mln": 49
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Ипотека",
+      "plan_mln": 250,
+      "fact_mln": 240
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Потребительские кредиты",
+      "plan_mln": 60,
+      "fact_mln": 62
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Автокредиты",
+      "plan_mln": 40,
+      "fact_mln": 42
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Ипотека",
+      "plan_mln": 200,
+      "fact_mln": 180
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Потребительские кредиты",
+      "plan_mln": 50,
+      "fact_mln": 48
+    },
+    {
+      "period": "2026-10-30",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Автокредиты",
+      "plan_mln": 30,
+      "fact_mln": 29
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Ипотека",
+      "plan_mln": 400,
+      "fact_mln": 420
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Потребительские кредиты",
+      "plan_mln": 80,
+      "fact_mln": 88
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A01",
+      "office": "Центральный",
+      "city": "Москва",
+      "product": "Автокредиты",
+      "plan_mln": 60,
+      "fact_mln": 66
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Ипотека",
+      "plan_mln": 350,
+      "fact_mln": 280
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Потребительские кредиты",
+      "plan_mln": 70,
+      "fact_mln": 76
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A02",
+      "office": "Северный",
+      "city": "Санкт-Петербург",
+      "product": "Автокредиты",
+      "plan_mln": 50,
+      "fact_mln": 52
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Ипотека",
+      "plan_mln": 250,
+      "fact_mln": 270
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Потребительские кредиты",
+      "plan_mln": 60,
+      "fact_mln": 68
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A03",
+      "office": "Восточный",
+      "city": "Екатеринбург",
+      "product": "Автокредиты",
+      "plan_mln": 40,
+      "fact_mln": 45
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Ипотека",
+      "plan_mln": 200,
+      "fact_mln": 150
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Потребительские кредиты",
+      "plan_mln": 50,
+      "fact_mln": 43
+    },
+    {
+      "period": "2026-11-06",
+      "office_id": "A04",
+      "office": "Южный",
+      "city": "Краснодар",
+      "product": "Автокредиты",
+      "plan_mln": 30,
+      "fact_mln": 25
+    }
+  ]
+}
